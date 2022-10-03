@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { PersonaCoService } from "src/core/service/persona.co.service";
-import { PersonaRegistroRequest } from "src/dto/request/Persona.registro.request";
+import { PersonaRegistroRequest } from "src/dto/request/persona.registro.request";
 import { ApiBsResponse } from "src/dto/response/api.bs.response";
 import { PersonaResponse } from "src/dto/response/persona.response";
 import { Persona } from "src/entities/persona.entity";

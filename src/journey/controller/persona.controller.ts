@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
-import { PersonaRegistroRequest } from 'src/dto/request/Persona.registro.request';
+import { PersonaRegistroRequest } from 'src/dto/request/persona.registro.request';
 import { ApiResponse } from 'src/dto/response/api.response';
 import { PersonaResponse } from 'src/dto/response/persona.response';
 import { PersonaJoService } from '../service/persona.jo.service';
